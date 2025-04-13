@@ -14,6 +14,7 @@
     <a href="README.zh.md">中文 (Chinese)</a>
   </p>
   <h3>Give your coding agent access to your Figma data.<br/>Implement designs in any framework in one-shot.</h3>
+	<a href="https://smithery.ai/server/@Zwe1/figma-context-mcp"><img alt="Smithery Badge" src="https://smithery.ai/badge/@Zwe1/figma-context-mcp"></a>
   <a href="https://npmcharts.com/compare/figma-developer-mcp?interval=30">
     <img alt="weekly downloads" src="https://img.shields.io/npm/dm/figma-developer-mcp.svg">
   </a>
@@ -86,6 +87,14 @@ The `figma-developer-mcp` server can be configured by adding the following to yo
     }
   }
 }
+```
+
+### Installing via Smithery
+
+To install Framelink Figma MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Zwe1/figma-context-mcp):
+
+```bash
+npx -y @smithery/cli install @Zwe1/figma-context-mcp --client claude
 ```
 
 If you need more information on how to configure the Framelink Figma MCP server, see the [Framelink docs](https://www.framelink.ai/docs/quickstart?utm_source=github&utm_medium=referral&utm_campaign=readme).
